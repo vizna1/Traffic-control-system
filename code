@@ -1,0 +1,337 @@
+// C++ code
+//
+int a=2;
+int b=3;
+int c=4;
+int d=5;
+int e=6;
+int f=7;
+int g=8;
+int green=11;
+int yellow=12;
+int red=13;
+
+void setup() {
+ pinMode(a, OUTPUT);
+ pinMode(b, OUTPUT);
+ pinMode(c, OUTPUT);
+ pinMode(d, OUTPUT);
+ pinMode(e, OUTPUT);
+ pinMode(f, OUTPUT);
+ pinMode(g, OUTPUT);
+ pinMode(green, OUTPUT);
+ pinMode(yellow, OUTPUT);
+ pinMode(red, OUTPUT);
+ 
+
+}
+
+void loop() {
+ //9 second red
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //8  second red
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //7 second red
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,0);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //6 second red
+  digitalWrite(a,1);
+ digitalWrite(b,0);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //5 second red
+  digitalWrite(a,1);
+ digitalWrite(b,0);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //4 second red
+  digitalWrite(a,0);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //3 second red
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //2 second red
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,0);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,0);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //1 second red
+  digitalWrite(a,0);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,0);;
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+ 
+ //0 second red
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,0);
+ digitalWrite(green,0);
+ digitalWrite(yellow,0);
+ digitalWrite(red,1);
+ delay(1000);
+
+ //3 second yellow
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,1);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //2 second yellow
+   digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,0);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,0);
+ digitalWrite(g,1);
+ digitalWrite(green,0);
+ digitalWrite(yellow,1);
+ digitalWrite(red,0);
+ delay(1000);
+  
+ //1 secong yellow
+  digitalWrite(a,0);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,0);
+ digitalWrite(yellow,1);
+ digitalWrite(red,0);
+ delay(1000);
+ 
+ //0 second yellow
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,0);
+ digitalWrite(green,0);
+ digitalWrite(yellow,1);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //9 second green 
+ digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //8  second green
+   digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //7 second green
+   digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,0);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //6 second green
+  digitalWrite(a,1);
+ digitalWrite(b,0);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //5 second green
+  digitalWrite(a,1);
+ digitalWrite(b,0);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //4 second green
+  digitalWrite(a,0);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,1);
+ digitalWrite(g,1);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //3 second green
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,1);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+
+ //2 second green
+   digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,0);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,0);
+ digitalWrite(g,1);
+ delay(1000);
+
+ //1 second green
+  digitalWrite(a,0);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,0);
+ digitalWrite(e,0);
+ digitalWrite(f,0);
+ digitalWrite(g,0);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000);
+ 
+ //0 second green
+  digitalWrite(a,1);
+ digitalWrite(b,1);
+ digitalWrite(c,1);
+ digitalWrite(d,1);
+ digitalWrite(e,1);
+ digitalWrite(f,1);
+ digitalWrite(g,0);
+ digitalWrite(green,1);
+ digitalWrite(yellow,0);
+ digitalWrite(red,0);
+ delay(1000); 
+}
