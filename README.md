@@ -1,4 +1,4 @@
-## Traffic Light Controller using 7 segment diaplay Using Arduino in TinkerCad
+## Traffic Light with timer using 7 segment diaplay Using Arduino in TinkerCad
 
 ## Introduction
 Traffic control systems are essential for managing vehicle movement efficiently and preventing congestion. With advancements in embedded systems, microcontrollers like Arduino provide cost-effective and smart solutions for traffic light management.
